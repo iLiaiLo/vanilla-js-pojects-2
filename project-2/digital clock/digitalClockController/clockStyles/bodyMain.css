@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Carter+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Carter One', serif;
+    margin: 0;
+}
+
+.main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width:65%;
+}

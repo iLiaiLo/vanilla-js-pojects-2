@@ -1,0 +1,186 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Carter+One&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Carter One', serif;
+    margin: 0;
+}
+
+.main{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid black;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    width:65%;
+} */
+/* year week month day styles-------------------------- */
+
+ /* .main>article:first-child{
+    border: 2px solid green;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.main>article:first-child>div{
+    padding: 8px 0;
+    border:2px solid black;
+    font-size:  25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}  */
+
+/* ----------------clock and search bar styles------------------ */
+
+/* .main>article:nth-child(2){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border:2px solid tomato;
+    width:min(60vw,60%);
+    padding: 10px;
+}
+
+.digital-clock{
+    width:350px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    font-size:  80px;
+}
+.search-timezone{
+    position: relative;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-timezone input{
+    padding: 10px;
+    font-size:20px;
+    outline: none;
+    border: 1px solid black;
+    width:350px;
+}
+.search-timezone input:focus{
+    box-shadow: 0 0 5px lightslategrey inset;
+} */
+
+/* ---------time zones----------------- */
+
+
+/* .time-zones{
+    height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    margin:0 auto;
+    top:60px;
+    padding: 5px 0;
+    background-color: lightblue;
+    scrollbar-width: none;
+}
+.time-zone{
+    list-style-type:none;
+    display: none;
+    width:360px;
+    border: 1px solid black;
+    margin:5px 0;
+    padding: 5px; 
+    font-size: 20px;
+    cursor: pointer;
+}  */
+
+
+/* --------------------switch-theme--------------------- */
+/* .switch-theme{
+    position: absolute;
+    top:2px;
+    left:2px;
+    justify-self:flex-end;
+    align-self: center;
+}
+.switch-theme::before{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left:-5px;
+    top:-3px;
+    width: 40px;
+    height: 20px;
+    background-color: lightslategray;
+    box-shadow: 0 0 5px lime;
+    border-radius: 10px;
+}
+.switch-theme::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: limegreen;
+    top:-3px;
+    left:var(--leftpos,-5px);
+    transition: 0.25s ease-out;
+    border-radius: 50%;
+} */
+
+/* ---responsive-----*/
+/* 
+   @media screen and (max-width: 1000px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        width:60dvw;
+    }
+    .main>article:nth-child(2){
+        width: 60%;
+    }
+    .digital-clock{
+        font-size: 40px;
+        padding: 0;
+        width: 100%;
+    }
+    .time-zone{
+        font-size:15px;
+        width:200px;
+    }
+    .search-timezone input{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .main{
+        width:40dvw;
+    }
+    .main>article:first-child>div{
+        font-size: 15px;
+    }
+    .main>article:nth-child(2){
+        width: 100%;
+    }
+    .digital-clock{
+        width: 180px;
+        font-size: 30px;
+    }
+    .search-timezone input{
+        font-size: 10px;
+    }
+    .time-zone{
+        font-size: 10px;
+    }
+}    */

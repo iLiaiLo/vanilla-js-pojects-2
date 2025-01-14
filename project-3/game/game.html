@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<title>try to catch a ball</title>
-        <link rel="stylesheet" href="tamashi.css">
+        <link rel="stylesheet" href="game.css">
+        <script src="game.js" type="module" defer></script>
 	</head>
 	<body>
         <div class="container">
@@ -10,10 +11,10 @@
                 <div class="dot" id="point"></div>
             </div>
             <div style="margin-top:20px; font-size:20px;color:red;">
-            score <input readonly="true" id="score" value="0" step="1" type="number">
+            score <input type="number" readonly="true" value="0" id="score" >
             </div>
             <p>
-            <button id="button" class="button" type="button" onclick="start()">start</button>
+            <button id="button" class="button" type="button">start</button>
             </p>
             <div id="time" style="font-size:20px;"></div>
             <p id="result" style="font-size:20px;"></p>
@@ -21,6 +22,5 @@
         </div>
          
     </body>
-    <script src="tamashi.js"></script>
 	
 </html>

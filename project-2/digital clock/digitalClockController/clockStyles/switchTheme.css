@@ -1,0 +1,31 @@
+.switch-theme{
+    position: absolute;
+    top:2px;
+    left:2px;
+    justify-self:flex-end;
+    align-self: center;
+}
+.switch-theme::before{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left:-5px;
+    top:-3px;
+    width: 40px;
+    height: 20px;
+    background-color: lightslategray;
+    box-shadow: 0 0 5px lime;
+    border-radius: 10px;
+}
+.switch-theme::after{
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: limegreen;
+    top:-3px;
+    left:var(--leftpos,-5px);
+    transition: 0.25s ease-out;
+    border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.canvas{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-200px,-200px);
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Cute', sans-serif;
+}
+.greeting{
+    margin-top:100px;
+    text-align: center;
+    font-size:55px;
+}
+.day-month-year{
+    margin-top:420px;
+    text-align: center;
+    font-size:25px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>clock</title>
+        <!-- <link rel="stylesheet" href="digitalClock.css"> -->
+        <link rel="stylesheet" href="digitalClockController/clockStyles/bodyMain.css">
+        <link rel="stylesheet" href="digitalClockController/clockStyles/clockAndSearchBar.css">
+        <link rel="stylesheet" href="digitalClockController/clockStyles/responsive.css">
+        <link rel="stylesheet" href="digitalClockController/clockStyles/switchTheme.css">
+        <link rel="stylesheet" href="digitalClockController/clockStyles/yearWeekMonthDay.css">
+        <link rel="stylesheet" href="digitalClockController/clockStyles/timeZonesStyles.css">
+        <script src="digitalClock.js" type="module" defer></script>
+    </head>
+    <body>
+        <section class="main">
+            <article>
+                <div class="weekday-container"><span>Weekday:</span><span id="weekday"></span></div>
+                <div class="day-container"><span>Day:</span><span id="day"></span></div>
+                <div class="month-container"><span>Month:</span><span id="month"></span></div>
+                <div class="year-container"><span>Year:</span><span id="year"></span></div>
+            </article>
+            <article>
+                <div class="digital-clock"></div>
+                <div class="search-timezone">
+                    <input type="text" class="timeZone-input" placeholder="enter city or timezone...">
+                    <ul class="time-zones"></ul>
+                </div>
+            </article>
+            <!-- <button class="switch-theme">swich theme</button> -->                 
+            <input type="checkbox" class="switch-theme">
+        </section>
+    </body>
+</html>

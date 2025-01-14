@@ -1,0 +1,17 @@
+.main>article:first-child{
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.main>article:first-child>div{
+    padding: 8px 0;
+    font-size:  25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
